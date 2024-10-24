@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .App-header {
     position: absolute;
     top: 40px; /* Adjust this value for desired distance from top */
@@ -48,54 +47,3 @@
     color: #333;
     font-weight: 500;
 }
-=======
-.App-header {
-    position: absolute;
-    top: 40px; /* Adjust this value for desired distance from top */
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80%; /* Adjust width as needed */
-    max-width: ; /* Optional: set a max-width */
-    height: 60px;
-    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-    border-radius: 40px; /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: add some shadow */
-}
-
-.logo {
-    font-family: 'Markazi Text', serif;
-    font-size: 1rem;
-    padding-left: 1rem;
-}
-
-.home-link {
-    text-decoration: none;
-    color: inherit;
-}
-
-.home-link:hover {
-    text-decoration: none;
-}
-
-.home-link h1 {
-    margin: 0;
-    /* ... any other existing h1 styles ... */
-}
-
-.navigation ul {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-}
-
-.navigation a {
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
-}
->>>>>>> b00288b52f058a0e290cd55204b98fe38618c6a4
