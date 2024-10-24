@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .booking {
     background-color: #f4f4f4;
     padding-top: 12rem;
@@ -101,3 +102,108 @@
         font-size: 14px;
     }
 }
+=======
+.booking {
+    background-color: #f4f4f4;
+    padding-top: 12rem;
+    min-height: calc(83vh - 120px); /* Adjust based on your header/footer height */
+}
+
+.booking-content {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.booking h1 {
+    color: #495E57;
+    font-size: 2.5rem;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input,
+.form-group select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #495E57;
+}
+
+.error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.submit-btn {
+    background-color: #F4CE14;
+    color: #333;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #E1C012;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .booking-content {
+        padding: 20px;
+        margin: 0 20px;
+    }
+
+    .booking h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .booking {
+        padding: 40px 0;
+    }
+
+    .booking h1 {
+        font-size: 1.8rem;
+    }
+
+    .form-group input,
+    .form-group select,
+    .submit-btn {
+        font-size: 14px;
+    }
+}
+>>>>>>> b00288b52f058a0e290cd55204b98fe38618c6a4

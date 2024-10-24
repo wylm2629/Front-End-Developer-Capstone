@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* ... previous styles ... */
 
 .confirmation-page {
@@ -99,3 +100,106 @@
     font-size: 0.9rem;
   }
 }
+=======
+/* ... previous styles ... */
+
+.confirmation-page {
+  background-color: #f4f4f4;
+  min-height: calc(100vh - 200px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.confirmation-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+.confirmation-content h1 {
+  color: #495E57;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.confirmation-content p {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.booking-details {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+.booking-details h2 {
+  color: #495E57;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.details-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.details-table th,
+.details-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.details-table th {
+  font-weight: bold;
+  color: #495E57;
+  width: 40%;
+}
+
+.home-button {
+  width: 90%;
+  display: inline-block;
+  background-color: #F4CE14;
+  color: #3e4e47;
+  padding: 0.8rem 1.5rem;
+  margin-top: 2rem;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.home-button:hover {
+  background-color: #3e4e47;
+  color: #fff;
+}
+
+@media (max-width: 480px) {
+  .confirmation-content {
+    padding: 1rem;
+  }
+
+  .confirmation-content h1 {
+    font-size: 2rem;
+  }
+
+  .booking-details h2 {
+    font-size: 1.5rem;
+  }
+
+  .details-table th,
+  .details-table td {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+}
+>>>>>>> b00288b52f058a0e290cd55204b98fe38618c6a4
