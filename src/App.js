@@ -41,9 +41,9 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route 
-          path="/booking" 
-          element={<BookingPage availableTimes={availableTimes} dispatch={dispatch} />} 
+        <Route
+          path="/booking"
+          element={<BookingPage availableTimes={availableTimes} dispatch={dispatch} />}
         />
         <Route path="/confirmation" element={<ConfirmationPage />} />
       </Routes>
